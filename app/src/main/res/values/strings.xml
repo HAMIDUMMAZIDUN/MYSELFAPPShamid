@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Myself Apps</string>
+    <string name="welcome_text">Welcome to Myself Apps</string>
+
+    <!-- Walkthrough strings -->
+    <string name="walkthrough_title_1">Welcome to Myself Apps</string>
+    <string name="walkthrough_description_1">Explore everything about HAMID ABDUL AZIZ in one place. Discover profile, interests, daily activities and more!</string>
+
+    <string name="walkthrough_title_2">Stay Connected</string>
+    <string name="walkthrough_description_2">Keep track of daily activities, browse the gallery, check out favorite music and videos.</string>
+
+    <string name="walkthrough_title_3">Personalized Experience</string>
+    <string name="walkthrough_description_3">Find everything you need to know and easily navigate through all sections with a simple interface.</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
