@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="splash_background">#3F51B5</color> <!-- Lebih elegan Indigo -->
+    <color name="splash_background">#3F51B5</color>
     <color name="primary_color">#3F51B5</color>
     <color name="secondary_color">#5C6BC0</color>
     <color name="text_color">#212121</color>
-
-    <!-- Tambahan warna yang hilang -->
     <color name="purple_200">#BB86FC</color>
     <color name="purple_500">#6200EE</color>
     <color name="purple_700">#3700B3</color>
     <color name="teal_200">#03DAC5</color>
     <color name="teal_700">#018786</color>
-
+    <color name="green">#4CAF50</color>
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_100">#C8E6C9</color>
+    <color name="green_700">#388E3C</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="green_shadow">#808080</color>
+    <color name="dark_background_screen">#FF121212</color>
+    <color name="primary_color_original">#FF6200EE</color> <color name="text_color_original">#FF000000</color> <color name="green_primary">#4CAF50</color> <color name="green_dark">#388E3C</color> <color name="green_light">#C8E6C9</color> <color name="green_accent">#8BC34A</color> <color name="green_text_on_primary">#FFFFFF</color> <color name="green_text_secondary">#757575</color> <color name="black">#FF000000</color>
 </resources>

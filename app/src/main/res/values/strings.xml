@@ -1,23 +1,17 @@
 <resources>
-    <string name="app_name">Myself Apps</string>
-    <string name="welcome_text">Welcome to Myself Apps</string>
-
-    <!-- Walkthrough strings -->
-    <string name="walkthrough_title_1">Welcome to Myself Apps</string>
-    <string name="walkthrough_description_1">Explore everything about HAMID ABDUL AZIZ in one place. Discover profile, interests, daily activities and more!</string>
-
-    <string name="walkthrough_title_2">Stay Connected</string>
-    <string name="walkthrough_description_2">Keep track of daily activities, browse the gallery, check out favorite music and videos.</string>
-
-    <string name="walkthrough_title_3">Personalized Experience</string>
-    <string name="walkthrough_description_3">Find everything you need to know and easily navigate through all sections with a simple interface.</string>
-
+    <string name="app_name">Aplikasi Saya</string>
+    <string name="welcome_text">Selamat datang di Aplikasi Saya</string>
+    <string name="walkthrough_title_1">Selamat Datang di Aplikasi Saya</string>
+    <string name="walkthrough_description_1">Temukan segalanya tentang HAMID ABDUL AZIZ dalam satu aplikasi — profil, minat, aktivitas harian, dan lainnya.</string>
+    <string name="walkthrough_title_2">Tetap Terhubung</string>
+    <string name="walkthrough_description_2">Pantau aktivitas harian, jelajahi galeri, serta nikmati musik dan video favorit Anda.</string>
+    <string name="walkthrough_title_3">Pengalaman yang Dipersonalisasi</string>
+    <string name="walkthrough_description_3">Akses informasi dengan mudah dan navigasi yang sederhana untuk pengalaman yang lebih menyenangkan.</string>
+    <string name="see_more">Lihat lainnya</string>
+    <string name="see_less">Lihat lebih sedikit</string>
     <string name="next">Next</string>
     <string name="skip">Skip</string>
-    <string name="get_started">Get Started</string>
-
-    <!-- Navigation Drawer -->
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="get_started">Mulai Sekarang</string>
+    <string name="navigation_drawer_open">Buka menu navigasi</string>
+    <string name="navigation_drawer_close">Tutup menu navigasi</string>
 </resources>

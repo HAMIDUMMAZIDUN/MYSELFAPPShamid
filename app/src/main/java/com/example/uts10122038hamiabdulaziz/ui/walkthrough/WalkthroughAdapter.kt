@@ -3,8 +3,7 @@ package com.example.uts10122038hamidabdulaziz.ui.walkthrough
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
+import android.widget.TextView // ImageView tidak lagi digunakan
 import androidx.recyclerview.widget.RecyclerView
 import com.example.uts10122038hamidabdulaziz.R
 
@@ -12,12 +11,12 @@ class WalkthroughAdapter(private val walkthroughItems: List<WalkthroughItem>) :
     RecyclerView.Adapter<WalkthroughAdapter.WalkthroughViewHolder>() {
 
     inner class WalkthroughViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val imgWalkthrough: ImageView = itemView.findViewById(R.id.imgWalkthrough)
+
         private val tvTitle: TextView = itemView.findViewById(R.id.tvTitle)
         private val tvDescription: TextView = itemView.findViewById(R.id.tvDescription)
 
         fun bind(walkthroughItem: WalkthroughItem) {
-            imgWalkthrough.setImageResource(walkthroughItem.imageResId)
+
             tvTitle.text = walkthroughItem.title
             tvDescription.text = walkthroughItem.description
         }
@@ -25,7 +24,7 @@ class WalkthroughAdapter(private val walkthroughItems: List<WalkthroughItem>) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WalkthroughViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_walkthrough, parent, false)
+            .inflate(R.layout.item_walkthrough, parent, false) // Pastikan R.layout.item_walkthrough sudah sesuai (tanpa ImageView)
         return WalkthroughViewHolder(view)
     }
 
@@ -37,7 +36,7 @@ class WalkthroughAdapter(private val walkthroughItems: List<WalkthroughItem>) :
 }
 
 data class WalkthroughItem(
-    val imageResId: Int,
+
     val title: String,
     val description: String
 )

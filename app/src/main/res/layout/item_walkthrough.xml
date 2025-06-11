@@ -3,48 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:padding="24dp">
 
-    <!-- Ilustrasi/Gambar -->
-    <ImageView
-        android:id="@+id/imgWalkthrough"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="64dp"
-        android:contentDescription="Walkthrough illustration"
-        app:layout_constraintBottom_toTopOf="@id/tvTitle"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHeight_percent="0.5" />
-
-    <!-- Judul -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp" android:gravity="center"
+        android:text="Contoh Judul" android:textColor="@color/green_primary"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_color"
-        android:gravity="center"
-        app:layout_constraintBottom_toTopOf="@id/tvDescription"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imgWalkthrough" />
-
-    <!-- Deskripsi -->
-    <TextView
-        android:id="@+id/tvDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:textSize="16sp"
-        android:textColor="@color/text_color"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
-
+        app:layout_constraintTop_toTopOf="parent" /> <TextView
+    android:id="@+id/tvDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:gravity="center"
+    android:text="Ini adalah contoh deskripsi yang akan muncul di bawah judul." android:textColor="@color/green_primary"
+    android:textSize="16sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tvTitle" />
 </androidx.constraintlayout.widget.ConstraintLayout>
